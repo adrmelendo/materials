@@ -1,4 +1,1154 @@
 {
-  "matdb" : {},
-  "matcurvesdb": {}  
+  "matdb" : [
+    {
+        "Estandar1":"DC04",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"alloy",
+        "Type":"Steel alloys",
+        "name_curve_type":"By points",
+        "Idmaterial":"9",
+        "Properties": [
+            {
+                "Feature": 7860,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 210000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.3,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 203649999.99999997,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 358000000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.58,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+        ]
+    },{
+        "Estandar1":"AISI-316L",
+        "Estandar2":"316L-AISI",
+        "Estandar3":"AISI-316L-2",
+        "Name":"Austenitic stainless steel",
+        "Type":"Stainless steels",
+        "name_curve_type":"Ludwick",
+        "Idmaterial":"4",
+        "Properties": [
+            {
+                "Feature": 7800.0,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 193000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.33,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 291590000.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 1266830000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.52,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 0.51,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.01,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.34,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-4.00},
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-0.285},
+            {"EqPlasticStrainatFailure":8.8099,"Triaxiality":-0.2825},
+            {"EqPlasticStrainatFailure":7.8416,"Triaxiality":-0.2794},
+            {"EqPlasticStrainatFailure":6.8737,"Triaxiality":-0.2753},
+            {"EqPlasticStrainatFailure":5.9062,"Triaxiality":-0.270},
+            {"EqPlasticStrainatFailure":4.9395,"Triaxiality":-0.2625},
+            {"EqPlasticStrainatFailure":3.9742,"Triaxiality":-0.2513},
+            {"EqPlasticStrainatFailure":3.0115,"Triaxiality":-0.2329},
+            {"EqPlasticStrainatFailure":2.0552,"Triaxiality":-0.1967},
+            {"EqPlasticStrainatFailure":1.1223,"Triaxiality":-0.0958},
+            {"EqPlasticStrainatFailure":0.4115,"Triaxiality":0.4786},
+            {"EqPlasticStrainatFailure":0.4067,"Triaxiality":0.5324},
+            {"EqPlasticStrainatFailure":0.4111,"Triaxiality":0.5569},
+            {"EqPlasticStrainatFailure":0.420,"Triaxiality":0.5679},
+            {"EqPlasticStrainatFailure":0.4506,"Triaxiality":0.5861},
+            {"EqPlasticStrainatFailure":0.485,"Triaxiality":0.6002},
+            {"EqPlasticStrainatFailure":0.5336,"Triaxiality":0.615},
+            {"EqPlasticStrainatFailure":0.5269,"Triaxiality":0.6243},
+            {"EqPlasticStrainatFailure":0.5196,"Triaxiality":0.6344},
+            {"EqPlasticStrainatFailure":0.5134,"Triaxiality":0.6432},
+            {"EqPlasticStrainatFailure":0.5084,"Triaxiality":0.6505},
+            {"EqPlasticStrainatFailure":0.5046,"Triaxiality":0.6565},
+            {"EqPlasticStrainatFailure":0.5016,"Triaxiality":0.6612},
+            {"EqPlasticStrainatFailure":0.5001,"Triaxiality":0.6651},
+            {"EqPlasticStrainatFailure":0.4872,"Triaxiality":0.7009},
+            {"EqPlasticStrainatFailure":0.4717,"Triaxiality":0.745},
+            {"EqPlasticStrainatFailure":0.4547,"Triaxiality":0.795},
+            {"EqPlasticStrainatFailure":0.3786,"Triaxiality":1.045},
+            {"EqPlasticStrainatFailure":0.2625,"Triaxiality":1.545},
+            {"EqPlasticStrainatFailure":0.1262,"Triaxiality":2.545},
+            {"EqPlasticStrainatFailure":0.0292,"Triaxiality":4.545},
+            {"EqPlasticStrainatFailure":0.0067,"Triaxiality":6.545}
+        ]
+    },{
+        "Estandar1":"AISI-4340-ANN",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"Austenitic stainless steel",
+        "Type":"Stainless steels",
+        "name_curve_type":"Ludwick",
+        "Idmaterial":"5",
+        "Properties": [
+            {
+                "Feature": 7800.0,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 190000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.29,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 470000000.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 640000000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.15,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-4.00},
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-0.285},
+            {"EqPlasticStrainatFailure":8.8099,"Triaxiality":-0.2825},
+            {"EqPlasticStrainatFailure":7.8416,"Triaxiality":-0.2794},
+            {"EqPlasticStrainatFailure":6.8737,"Triaxiality":-0.2753},
+            {"EqPlasticStrainatFailure":5.9062,"Triaxiality":-0.270},
+            {"EqPlasticStrainatFailure":4.9395,"Triaxiality":-0.2625},
+            {"EqPlasticStrainatFailure":3.9742,"Triaxiality":-0.2513},
+            {"EqPlasticStrainatFailure":3.0115,"Triaxiality":-0.2329},
+            {"EqPlasticStrainatFailure":2.0552,"Triaxiality":-0.1967},
+            {"EqPlasticStrainatFailure":1.1223,"Triaxiality":-0.0958},
+            {"EqPlasticStrainatFailure":0.4115,"Triaxiality":0.4786},
+            {"EqPlasticStrainatFailure":0.4067,"Triaxiality":0.5324},
+            {"EqPlasticStrainatFailure":0.4111,"Triaxiality":0.5569},
+            {"EqPlasticStrainatFailure":0.420,"Triaxiality":0.5679},
+            {"EqPlasticStrainatFailure":0.4506,"Triaxiality":0.5861},
+            {"EqPlasticStrainatFailure":0.485,"Triaxiality":0.6002},
+            {"EqPlasticStrainatFailure":0.5336,"Triaxiality":0.615},
+            {"EqPlasticStrainatFailure":0.5269,"Triaxiality":0.6243},
+            {"EqPlasticStrainatFailure":0.5196,"Triaxiality":0.6344},
+            {"EqPlasticStrainatFailure":0.5134,"Triaxiality":0.6432},
+            {"EqPlasticStrainatFailure":0.5084,"Triaxiality":0.6505},
+            {"EqPlasticStrainatFailure":0.5046,"Triaxiality":0.6565},
+            {"EqPlasticStrainatFailure":0.5016,"Triaxiality":0.6612},
+            {"EqPlasticStrainatFailure":0.5001,"Triaxiality":0.6651},
+            {"EqPlasticStrainatFailure":0.4872,"Triaxiality":0.7009},
+            {"EqPlasticStrainatFailure":0.4717,"Triaxiality":0.745},
+            {"EqPlasticStrainatFailure":0.4547,"Triaxiality":0.795},
+            {"EqPlasticStrainatFailure":0.3786,"Triaxiality":1.045},
+            {"EqPlasticStrainatFailure":0.2625,"Triaxiality":1.545},
+            {"EqPlasticStrainatFailure":0.1262,"Triaxiality":2.545},
+            {"EqPlasticStrainatFailure":0.0292,"Triaxiality":4.545},
+            {"EqPlasticStrainatFailure":0.0067,"Triaxiality":6.545}
+        ]
+    },{
+        "Estandar1":"AISI-4340_SPH",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"Austenitic stainless steel",
+        "Type":"Stainless steels",
+        "name_curve_type":"Ludwick",
+        "Idmaterial":"6",
+        "Properties": [
+            {
+                "Feature": 7800.0,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 190000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.29,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 307700000.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 1100000000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.3605,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-4.00},
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-0.285},
+            {"EqPlasticStrainatFailure":8.8099,"Triaxiality":-0.2825},
+            {"EqPlasticStrainatFailure":7.8416,"Triaxiality":-0.2794},
+            {"EqPlasticStrainatFailure":6.8737,"Triaxiality":-0.2753},
+            {"EqPlasticStrainatFailure":5.9062,"Triaxiality":-0.270},
+            {"EqPlasticStrainatFailure":4.9395,"Triaxiality":-0.2625},
+            {"EqPlasticStrainatFailure":3.9742,"Triaxiality":-0.2513},
+            {"EqPlasticStrainatFailure":3.0115,"Triaxiality":-0.2329},
+            {"EqPlasticStrainatFailure":2.0552,"Triaxiality":-0.1967},
+            {"EqPlasticStrainatFailure":1.1223,"Triaxiality":-0.0958},
+            {"EqPlasticStrainatFailure":0.4115,"Triaxiality":0.4786},
+            {"EqPlasticStrainatFailure":0.4067,"Triaxiality":0.5324},
+            {"EqPlasticStrainatFailure":0.4111,"Triaxiality":0.5569},
+            {"EqPlasticStrainatFailure":0.420,"Triaxiality":0.5679},
+            {"EqPlasticStrainatFailure":0.4506,"Triaxiality":0.5861},
+            {"EqPlasticStrainatFailure":0.485,"Triaxiality":0.6002},
+            {"EqPlasticStrainatFailure":0.5336,"Triaxiality":0.615},
+            {"EqPlasticStrainatFailure":0.5269,"Triaxiality":0.6243},
+            {"EqPlasticStrainatFailure":0.5196,"Triaxiality":0.6344},
+            {"EqPlasticStrainatFailure":0.5134,"Triaxiality":0.6432},
+            {"EqPlasticStrainatFailure":0.5084,"Triaxiality":0.6505},
+            {"EqPlasticStrainatFailure":0.5046,"Triaxiality":0.6565},
+            {"EqPlasticStrainatFailure":0.5016,"Triaxiality":0.6612},
+            {"EqPlasticStrainatFailure":0.5001,"Triaxiality":0.6651},
+            {"EqPlasticStrainatFailure":0.4872,"Triaxiality":0.7009},
+            {"EqPlasticStrainatFailure":0.4717,"Triaxiality":0.745},
+            {"EqPlasticStrainatFailure":0.4547,"Triaxiality":0.795},
+            {"EqPlasticStrainatFailure":0.3786,"Triaxiality":1.045},
+            {"EqPlasticStrainatFailure":0.2625,"Triaxiality":1.545},
+            {"EqPlasticStrainatFailure":0.1262,"Triaxiality":2.545},
+            {"EqPlasticStrainatFailure":0.0292,"Triaxiality":4.545},
+            {"EqPlasticStrainatFailure":0.0067,"Triaxiality":6.545}
+        ]
+    },{
+        "Estandar1":"AISI-304L",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"Austenitic stainless steel",
+        "Type":"Stainless steels",
+        "name_curve_type":"By points",
+        "Idmaterial":"7",
+        "Properties": [
+            {
+                "Feature": 8000.0,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 200000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.30,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 409433000.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 1777000000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.49,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-4.00},
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-0.285},
+            {"EqPlasticStrainatFailure":8.8099,"Triaxiality":-0.2825},
+            {"EqPlasticStrainatFailure":7.8416,"Triaxiality":-0.2794},
+            {"EqPlasticStrainatFailure":6.8737,"Triaxiality":-0.2753},
+            {"EqPlasticStrainatFailure":5.9062,"Triaxiality":-0.270},
+            {"EqPlasticStrainatFailure":4.9395,"Triaxiality":-0.2625},
+            {"EqPlasticStrainatFailure":3.9742,"Triaxiality":-0.2513},
+            {"EqPlasticStrainatFailure":3.0115,"Triaxiality":-0.2329},
+            {"EqPlasticStrainatFailure":2.0552,"Triaxiality":-0.1967},
+            {"EqPlasticStrainatFailure":1.1223,"Triaxiality":-0.0958},
+            {"EqPlasticStrainatFailure":0.4115,"Triaxiality":0.4786},
+            {"EqPlasticStrainatFailure":0.4067,"Triaxiality":0.5324},
+            {"EqPlasticStrainatFailure":0.4111,"Triaxiality":0.5569},
+            {"EqPlasticStrainatFailure":0.420,"Triaxiality":0.5679},
+            {"EqPlasticStrainatFailure":0.4506,"Triaxiality":0.5861},
+            {"EqPlasticStrainatFailure":0.485,"Triaxiality":0.6002},
+            {"EqPlasticStrainatFailure":0.5336,"Triaxiality":0.615},
+            {"EqPlasticStrainatFailure":0.5269,"Triaxiality":0.6243},
+            {"EqPlasticStrainatFailure":0.5196,"Triaxiality":0.6344},
+            {"EqPlasticStrainatFailure":0.5134,"Triaxiality":0.6432},
+            {"EqPlasticStrainatFailure":0.5084,"Triaxiality":0.6505},
+            {"EqPlasticStrainatFailure":0.5046,"Triaxiality":0.6565},
+            {"EqPlasticStrainatFailure":0.5016,"Triaxiality":0.6612},
+            {"EqPlasticStrainatFailure":0.5001,"Triaxiality":0.6651},
+            {"EqPlasticStrainatFailure":0.4872,"Triaxiality":0.7009},
+            {"EqPlasticStrainatFailure":0.4717,"Triaxiality":0.745},
+            {"EqPlasticStrainatFailure":0.4547,"Triaxiality":0.795},
+            {"EqPlasticStrainatFailure":0.3786,"Triaxiality":1.045},
+            {"EqPlasticStrainatFailure":0.2625,"Triaxiality":1.545},
+            {"EqPlasticStrainatFailure":0.1262,"Triaxiality":2.545},
+            {"EqPlasticStrainatFailure":0.0292,"Triaxiality":4.545},
+            {"EqPlasticStrainatFailure":0.0067,"Triaxiality":6.545}
+        ]
+    },{
+        "Estandar1":"AA6061T0",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"Austenitic stainless steel",
+        "Type":"Stainless steels",
+        "name_curve_type":"Ludwick",
+        "Idmaterial":"8",
+        "Properties": [
+            {
+                "Feature": 2700.0,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 68900000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.0,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 57867700.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 241313000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.1578,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1.0,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-4.00},
+            {"EqPlasticStrainatFailure":9.7784,"Triaxiality":-0.285},
+            {"EqPlasticStrainatFailure":8.8099,"Triaxiality":-0.2825},
+            {"EqPlasticStrainatFailure":7.8416,"Triaxiality":-0.2794},
+            {"EqPlasticStrainatFailure":6.8737,"Triaxiality":-0.2753},
+            {"EqPlasticStrainatFailure":5.9062,"Triaxiality":-0.270},
+            {"EqPlasticStrainatFailure":4.9395,"Triaxiality":-0.2625},
+            {"EqPlasticStrainatFailure":3.9742,"Triaxiality":-0.2513},
+            {"EqPlasticStrainatFailure":3.0115,"Triaxiality":-0.2329},
+            {"EqPlasticStrainatFailure":2.0552,"Triaxiality":-0.1967},
+            {"EqPlasticStrainatFailure":1.1223,"Triaxiality":-0.0958},
+            {"EqPlasticStrainatFailure":0.4115,"Triaxiality":0.4786},
+            {"EqPlasticStrainatFailure":0.4067,"Triaxiality":0.5324},
+            {"EqPlasticStrainatFailure":0.4111,"Triaxiality":0.5569},
+            {"EqPlasticStrainatFailure":0.420,"Triaxiality":0.5679},
+            {"EqPlasticStrainatFailure":0.4506,"Triaxiality":0.5861},
+            {"EqPlasticStrainatFailure":0.485,"Triaxiality":0.6002},
+            {"EqPlasticStrainatFailure":0.5336,"Triaxiality":0.615},
+            {"EqPlasticStrainatFailure":0.5269,"Triaxiality":0.6243},
+            {"EqPlasticStrainatFailure":0.5196,"Triaxiality":0.6344},
+            {"EqPlasticStrainatFailure":0.5134,"Triaxiality":0.6432},
+            {"EqPlasticStrainatFailure":0.5084,"Triaxiality":0.6505},
+            {"EqPlasticStrainatFailure":0.5046,"Triaxiality":0.6565},
+            {"EqPlasticStrainatFailure":0.5016,"Triaxiality":0.6612},
+            {"EqPlasticStrainatFailure":0.5001,"Triaxiality":0.6651},
+            {"EqPlasticStrainatFailure":0.4872,"Triaxiality":0.7009},
+            {"EqPlasticStrainatFailure":0.4717,"Triaxiality":0.745},
+            {"EqPlasticStrainatFailure":0.4547,"Triaxiality":0.795},
+            {"EqPlasticStrainatFailure":0.3786,"Triaxiality":1.045},
+            {"EqPlasticStrainatFailure":0.2625,"Triaxiality":1.545},
+            {"EqPlasticStrainatFailure":0.1262,"Triaxiality":2.545},
+            {"EqPlasticStrainatFailure":0.0292,"Triaxiality":4.545},
+            {"EqPlasticStrainatFailure":0.0067,"Triaxiality":6.545}
+        ]
+    },{
+        "Estandar1":"ST37",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"Aluminium-manganese",
+        "Type":"Steel alloys",
+        "name_curve_type":"Ludwick",
+        "Idmaterial":"10",
+        "Properties": [
+            {
+                "Feature": 7860,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 200000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.33,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 278500000.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 2436000000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.9563,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+        ]
+    },{
+        "Estandar1":"Al_1050",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"Aluminium",
+        "Type":"Aluminium alloys",
+        "name_curve_type":"Ludwick",
+        "Idmaterial":"11",
+        "Properties": [
+            {
+                "Feature": 2710,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 69000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.33,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 15300000.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 135400000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.4564,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+        ]
+    },{
+        "Estandar1":"AISI-304",
+        "Estandar2":"Not defined",
+        "Estandar3":"Not defined",
+        "Name":"alloy",
+        "Type":"Steel alloys",
+        "name_curve_type":"Ludwick",
+        "Idmaterial":"12",
+        "Properties": [
+            {
+                "Feature": 7900,
+                "Property": "Density",
+                "Units": "kg/m3"
+        },
+            {
+                "Feature": 200000000000.0,
+                "Property": "Young",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.3,
+                "Property": "Poisson",
+                "Units": "-"
+        },
+            {
+                "Feature": 226300000.0,
+                "Property": "Yield",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 1119000000.0,
+                "Property": "Hardening Module",
+                "Units": "Pa"
+        },
+            {
+                "Feature": 0.6338,
+                "Property": "Hardening Exponent",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "JC_Param_M",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R0",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R45",
+                "Units": "-"
+        },
+            {
+                "Feature": 1,
+                "Property": "R90",
+                "Units": "-"
+        }        ],
+        "TriaxialFailure":[
+        ]
+    }
+]
+,
+  "matcurvesdb": [
+    {
+        "materialid":"4",
+        "list":[
+            {"idpunt":1,"tension":57867700.0,"deformation":0.0},
+            {"idpunt":2,"tension":96082300.0,"deformation":0.02},
+            {"idpunt":3,"tension":119779000.0,"deformation":0.04},
+            {"idpunt":4,"tension":137627000.0,"deformation":0.06},
+            {"idpunt":5,"tension":151541000.0,"deformation":0.08},
+            {"idpunt":6,"tension":162579000.0,"deformation":0.1},
+            {"idpunt":7,"tension":171449000.0,"deformation":0.12},
+            {"idpunt":8,"tension":178658000.0,"deformation":0.14},
+            {"idpunt":9,"tension":184586000.0,"deformation":0.16},
+            {"idpunt":10,"tension":189516000.0,"deformation":0.18},
+            {"idpunt":11,"tension":193666000.0,"deformation":0.2},
+            {"idpunt":12,"tension":197202000.0,"deformation":0.22},
+            {"idpunt":13,"tension":200253000.0,"deformation":0.24},
+            {"idpunt":14,"tension":202920000.0,"deformation":0.26},
+            {"idpunt":15,"tension":205278000.0,"deformation":0.28},
+            {"idpunt":16,"tension":207389000.0,"deformation":0.3},
+            {"idpunt":17,"tension":209301000.0,"deformation":0.32},
+            {"idpunt":18,"tension":211049000.0,"deformation":0.34},
+            {"idpunt":19,"tension":212663000.0,"deformation":0.36},
+            {"idpunt":20,"tension":214166000.0,"deformation":0.38},
+            {"idpunt":21,"tension":215576000.0,"deformation":0.4},
+            {"idpunt":22,"tension":216907000.0,"deformation":0.42},
+            {"idpunt":23,"tension":218172000.0,"deformation":0.44},
+            {"idpunt":24,"tension":219379000.0,"deformation":0.46},
+            {"idpunt":25,"tension":220536000.0,"deformation":0.48},
+            {"idpunt":26,"tension":221650000.0,"deformation":0.5},
+            {"idpunt":27,"tension":226705000.0,"deformation":0.6},
+            {"idpunt":28,"tension":231146000.0,"deformation":0.7},
+            {"idpunt":29,"tension":235151000.0,"deformation":0.8},
+            {"idpunt":30,"tension":238821000.0,"deformation":0.9},
+            {"idpunt":31,"tension":242220000.0,"deformation":1.0},
+            {"idpunt":32,"tension":245393000.0,"deformation":1.1},
+            {"idpunt":33,"tension":248373000.0,"deformation":1.2},
+            {"idpunt":34,"tension":251188000.0,"deformation":1.3},
+            {"idpunt":35,"tension":253858000.0,"deformation":1.4},
+            {"idpunt":36,"tension":256400000.0,"deformation":1.5},
+            {"idpunt":37,"tension":258828000.0,"deformation":1.6},
+            {"idpunt":38,"tension":261154000.0,"deformation":1.7},
+            {"idpunt":39,"tension":263388000.0,"deformation":1.8},
+            {"idpunt":40,"tension":265538000.0,"deformation":1.9},
+            {"idpunt":41,"tension":267612000.0,"deformation":2.0},
+            {"idpunt":42,"tension":269616000.0,"deformation":2.1},
+            {"idpunt":43,"tension":271556000.0,"deformation":2.2},
+            {"idpunt":44,"tension":273436000.0,"deformation":2.3},
+            {"idpunt":45,"tension":275260000.0,"deformation":2.4},
+            {"idpunt":46,"tension":277034000.0,"deformation":2.5},
+            {"idpunt":47,"tension":278759000.0,"deformation":2.6},
+            {"idpunt":48,"tension":280439000.0,"deformation":2.7},
+            {"idpunt":49,"tension":282077000.0,"deformation":2.8},
+            {"idpunt":50,"tension":283675000.0,"deformation":2.9},
+            {"idpunt":51,"tension":285236000.0,"deformation":3.0},
+            {"idpunt":52,"tension":286762000.0,"deformation":3.1},
+            {"idpunt":53,"tension":288254000.0,"deformation":3.2},
+            {"idpunt":54,"tension":289714000.0,"deformation":3.3},
+            {"idpunt":55,"tension":291145000.0,"deformation":3.4},
+            {"idpunt":56,"tension":292546000.0,"deformation":3.5},
+            {"idpunt":57,"tension":293921000.0,"deformation":3.6},
+            {"idpunt":58,"tension":295269000.0,"deformation":3.7},
+            {"idpunt":59,"tension":296593000.0,"deformation":3.8},
+            {"idpunt":60,"tension":297893000.0,"deformation":3.9},
+            {"idpunt":61,"tension":299170000.0,"deformation":4.0},
+            {"idpunt":62,"tension":300426000.0,"deformation":4.1},
+            {"idpunt":63,"tension":301661000.0,"deformation":4.2},
+            {"idpunt":64,"tension":302875000.0,"deformation":4.3},
+            {"idpunt":65,"tension":304071000.0,"deformation":4.4},
+            {"idpunt":66,"tension":305248000.0,"deformation":4.5},
+            {"idpunt":67,"tension":306407000.0,"deformation":4.6},
+            {"idpunt":68,"tension":307549000.0,"deformation":4.7},
+            {"idpunt":69,"tension":308674000.0,"deformation":4.8},
+            {"idpunt":70,"tension":309784000.0,"deformation":4.9},
+            {"idpunt":71,"tension":310878000.0,"deformation":5.0},
+            {"idpunt":72,"tension":311957000.0,"deformation":5.1},
+            {"idpunt":73,"tension":313021000.0,"deformation":5.2},
+            {"idpunt":74,"tension":314072000.0,"deformation":5.3},
+            {"idpunt":75,"tension":315109000.0,"deformation":5.4},
+            {"idpunt":76,"tension":316133000.0,"deformation":5.5},
+            {"idpunt":77,"tension":317144000.0,"deformation":5.6},
+            {"idpunt":78,"tension":318143000.0,"deformation":5.7},
+            {"idpunt":79,"tension":319130000.0,"deformation":5.8},
+            {"idpunt":80,"tension":320105000.0,"deformation":5.9},
+            {"idpunt":81,"tension":321069000.0,"deformation":6.0},
+            {"idpunt":82,"tension":322022000.0,"deformation":6.1},
+            {"idpunt":83,"tension":322965000.0,"deformation":6.2},
+            {"idpunt":84,"tension":323897000.0,"deformation":6.3},
+            {"idpunt":85,"tension":324819000.0,"deformation":6.4},
+            {"idpunt":86,"tension":325731000.0,"deformation":6.5},
+            {"idpunt":87,"tension":326634000.0,"deformation":6.6},
+            {"idpunt":88,"tension":327527000.0,"deformation":6.7},
+            {"idpunt":89,"tension":328411000.0,"deformation":6.8},
+            {"idpunt":90,"tension":329286000.0,"deformation":6.9},
+            {"idpunt":91,"tension":330152000.0,"deformation":7.0},
+            {"idpunt":92,"tension":331010000.0,"deformation":7.1},
+            {"idpunt":93,"tension":331860000.0,"deformation":7.2},
+            {"idpunt":94,"tension":332702000.0,"deformation":7.3},
+            {"idpunt":95,"tension":333536000.0,"deformation":7.4},
+            {"idpunt":96,"tension":334362000.0,"deformation":7.5},
+            {"idpunt":97,"tension":335180000.0,"deformation":7.6},
+            {"idpunt":98,"tension":335992000.0,"deformation":7.7},
+            {"idpunt":99,"tension":336796000.0,"deformation":7.8},
+            {"idpunt":100,"tension":337593000.0,"deformation":7.9},
+            {"idpunt":101,"tension":338383000.0,"deformation":8.0},
+            {"idpunt":102,"tension":339166000.0,"deformation":8.1},
+            {"idpunt":103,"tension":339943000.0,"deformation":8.2},
+            {"idpunt":104,"tension":340713000.0,"deformation":8.3},
+            {"idpunt":105,"tension":341477000.0,"deformation":8.4},
+            {"idpunt":106,"tension":342234000.0,"deformation":8.5},
+            {"idpunt":107,"tension":342986000.0,"deformation":8.6},
+            {"idpunt":108,"tension":343731000.0,"deformation":8.7},
+            {"idpunt":109,"tension":344471000.0,"deformation":8.8},
+            {"idpunt":110,"tension":345205000.0,"deformation":8.9},
+            {"idpunt":111,"tension":345934000.0,"deformation":9.0},
+            {"idpunt":112,"tension":346656000.0,"deformation":9.1},
+            {"idpunt":113,"tension":347374000.0,"deformation":9.2},
+            {"idpunt":114,"tension":348086000.0,"deformation":9.3},
+            {"idpunt":115,"tension":348792000.0,"deformation":9.4},
+            {"idpunt":116,"tension":349494000.0,"deformation":9.5},
+            {"idpunt":117,"tension":350191000.0,"deformation":9.6},
+            {"idpunt":118,"tension":350882000.0,"deformation":9.7},
+            {"idpunt":119,"tension":351569000.0,"deformation":9.8},
+            {"idpunt":120,"tension":352251000.0,"deformation":9.9},
+            {"idpunt":121,"tension":352928000.0,"deformation":10.0},
+            {"idpunt":122,"tension":353601000.0,"deformation":10.1},
+            {"idpunt":123,"tension":354269000.0,"deformation":10.2},
+            {"idpunt":124,"tension":354932000.0,"deformation":10.3},
+            {"idpunt":125,"tension":355591000.0,"deformation":10.4},
+            {"idpunt":126,"tension":356246000.0,"deformation":10.5},
+            {"idpunt":127,"tension":356897000.0,"deformation":10.6},
+            {"idpunt":128,"tension":357543000.0,"deformation":10.7},
+            {"idpunt":129,"tension":358185000.0,"deformation":10.8},
+            {"idpunt":130,"tension":358823000.0,"deformation":10.9},
+            {"idpunt":131,"tension":359457000.0,"deformation":11.0},
+            {"idpunt":132,"tension":360087000.0,"deformation":11.1},
+            {"idpunt":133,"tension":360714000.0,"deformation":11.2},
+            {"idpunt":134,"tension":361336000.0,"deformation":11.3},
+            {"idpunt":135,"tension":361955000.0,"deformation":11.4},
+            {"idpunt":136,"tension":362570000.0,"deformation":11.5},
+            {"idpunt":137,"tension":363181000.0,"deformation":11.6},
+            {"idpunt":138,"tension":363789000.0,"deformation":11.7},
+            {"idpunt":139,"tension":364393000.0,"deformation":11.8},
+            {"idpunt":140,"tension":364993000.0,"deformation":11.9},
+            {"idpunt":141,"tension":365590000.0,"deformation":12.0},
+            {"idpunt":142,"tension":366184000.0,"deformation":12.1},
+            {"idpunt":143,"tension":366774000.0,"deformation":12.2},
+            {"idpunt":144,"tension":367362000.0,"deformation":12.3},
+            {"idpunt":145,"tension":367945000.0,"deformation":12.4},
+            {"idpunt":146,"tension":368526000.0,"deformation":12.5},
+            {"idpunt":147,"tension":369103000.0,"deformation":12.6},
+            {"idpunt":148,"tension":369677000.0,"deformation":12.7},
+            {"idpunt":149,"tension":370249000.0,"deformation":12.8},
+            {"idpunt":150,"tension":370817000.0,"deformation":12.9},
+            {"idpunt":151,"tension":371382000.0,"deformation":13.0},
+            {"idpunt":152,"tension":371944000.0,"deformation":13.1},
+            {"idpunt":153,"tension":372503000.0,"deformation":13.2},
+            {"idpunt":154,"tension":373059000.0,"deformation":13.3},
+            {"idpunt":155,"tension":373613000.0,"deformation":13.4},
+            {"idpunt":156,"tension":374163000.0,"deformation":13.5},
+            {"idpunt":157,"tension":374711000.0,"deformation":13.6},
+            {"idpunt":158,"tension":375256000.0,"deformation":13.7},
+            {"idpunt":159,"tension":375798000.0,"deformation":13.8},
+            {"idpunt":160,"tension":376338000.0,"deformation":13.9},
+            {"idpunt":161,"tension":376875000.0,"deformation":14.0},
+            {"idpunt":162,"tension":377409000.0,"deformation":14.1},
+            {"idpunt":163,"tension":377941000.0,"deformation":14.2},
+            {"idpunt":164,"tension":378470000.0,"deformation":14.3},
+            {"idpunt":165,"tension":378996000.0,"deformation":14.4},
+            {"idpunt":166,"tension":379520000.0,"deformation":14.5},
+            {"idpunt":167,"tension":380042000.0,"deformation":14.6},
+            {"idpunt":168,"tension":380561000.0,"deformation":14.7},
+            {"idpunt":169,"tension":381078000.0,"deformation":14.8},
+            {"idpunt":170,"tension":381592000.0,"deformation":14.9},
+            {"idpunt":171,"tension":382104000.0,"deformation":15.0},
+            {"idpunt":172,"tension":382614000.0,"deformation":15.1},
+            {"idpunt":173,"tension":383121000.0,"deformation":15.2},
+            {"idpunt":174,"tension":383626000.0,"deformation":15.3},
+            {"idpunt":175,"tension":384129000.0,"deformation":15.4},
+            {"idpunt":176,"tension":384630000.0,"deformation":15.5},
+            {"idpunt":177,"tension":385128000.0,"deformation":15.6},
+            {"idpunt":178,"tension":385624000.0,"deformation":15.7},
+            {"idpunt":179,"tension":386118000.0,"deformation":15.8},
+            {"idpunt":180,"tension":386610000.0,"deformation":15.9},
+            {"idpunt":181,"tension":387100000.0,"deformation":16.0},
+            {"idpunt":182,"tension":387587000.0,"deformation":16.1},
+            {"idpunt":183,"tension":388073000.0,"deformation":16.2},
+            {"idpunt":184,"tension":388556000.0,"deformation":16.3},
+            {"idpunt":185,"tension":389038000.0,"deformation":16.4},
+            {"idpunt":186,"tension":389517000.0,"deformation":16.5},
+            {"idpunt":187,"tension":389994000.0,"deformation":16.6},
+            {"idpunt":188,"tension":390470000.0,"deformation":16.7},
+            {"idpunt":189,"tension":390943000.0,"deformation":16.8},
+            {"idpunt":190,"tension":391415000.0,"deformation":16.9},
+            {"idpunt":191,"tension":391885000.0,"deformation":17.0},
+            {"idpunt":192,"tension":392353000.0,"deformation":17.1},
+            {"idpunt":193,"tension":392818000.0,"deformation":17.2},
+            {"idpunt":194,"tension":393282000.0,"deformation":17.3},
+            {"idpunt":195,"tension":393745000.0,"deformation":17.4},
+            {"idpunt":196,"tension":394205000.0,"deformation":17.5},
+            {"idpunt":197,"tension":394664000.0,"deformation":17.6},
+            {"idpunt":198,"tension":395120000.0,"deformation":17.7},
+            {"idpunt":199,"tension":395575000.0,"deformation":17.8},
+            {"idpunt":200,"tension":396029000.0,"deformation":17.9},
+            {"idpunt":201,"tension":396480000.0,"deformation":18.0},
+            {"idpunt":202,"tension":396930000.0,"deformation":18.1},
+            {"idpunt":203,"tension":397378000.0,"deformation":18.2},
+            {"idpunt":204,"tension":397825000.0,"deformation":18.3},
+            {"idpunt":205,"tension":398269000.0,"deformation":18.4},
+            {"idpunt":206,"tension":398712000.0,"deformation":18.5},
+            {"idpunt":207,"tension":399154000.0,"deformation":18.6},
+            {"idpunt":208,"tension":399594000.0,"deformation":18.7},
+            {"idpunt":209,"tension":400032000.0,"deformation":18.8},
+            {"idpunt":210,"tension":400469000.0,"deformation":18.9},
+            {"idpunt":211,"tension":400904000.0,"deformation":19.0},
+            {"idpunt":212,"tension":401337000.0,"deformation":19.1},
+            {"idpunt":213,"tension":401769000.0,"deformation":19.2},
+            {"idpunt":214,"tension":402199000.0,"deformation":19.3},
+            {"idpunt":215,"tension":402628000.0,"deformation":19.4},
+            {"idpunt":216,"tension":403055000.0,"deformation":19.5},
+            {"idpunt":217,"tension":403481000.0,"deformation":19.6},
+            {"idpunt":218,"tension":403906000.0,"deformation":19.7},
+            {"idpunt":219,"tension":404328000.0,"deformation":19.8},
+            {"idpunt":220,"tension":404750000.0,"deformation":19.9},
+            {"idpunt":221,"tension":405170000.0,"deformation":20.0}
+        ]
+    },{
+        "materialid":"9",
+        "list":[
+            {"idpunt":1,"tension":2.03650e+08,"deformation":0.00000e+00},
+            {"idpunt":2,"tension":2.54388e+08,"deformation":6.00000e-02},
+            {"idpunt":3,"tension":2.88717e+08,"deformation":1.20000e-01},
+            {"idpunt":4,"tension":3.18250e+08,"deformation":1.80000e-01},
+            {"idpunt":5,"tension":3.44469e+08,"deformation":2.40000e-01},
+            {"idpunt":6,"tension":3.68065e+08,"deformation":3.00000e-01},
+            {"idpunt":7,"tension":3.89473e+08,"deformation":3.60000e-01},
+            {"idpunt":8,"tension":4.09002e+08,"deformation":4.20000e-01},
+            {"idpunt":9,"tension":4.26891e+08,"deformation":4.80000e-01},
+            {"idpunt":10,"tension":4.43338e+08,"deformation":5.40000e-01},
+            {"idpunt":11,"tension":4.58504e+08,"deformation":6.00000e-01},
+            {"idpunt":12,"tension":4.72529e+08,"deformation":6.60000e-01},
+            {"idpunt":13,"tension":4.85534e+08,"deformation":7.20000e-01},
+            {"idpunt":14,"tension":4.97625e+08,"deformation":7.80000e-01},
+            {"idpunt":15,"tension":5.08893e+08,"deformation":8.40000e-01},
+            {"idpunt":16,"tension":5.19421e+08,"deformation":9.00000e-01},
+            {"idpunt":17,"tension":5.29282e+08,"deformation":9.60000e-01},
+            {"idpunt":18,"tension":5.38539e+08,"deformation":1.02000e+00},
+            {"idpunt":19,"tension":5.47251e+08,"deformation":1.08000e+00},
+            {"idpunt":20,"tension":5.55470e+08,"deformation":1.14000e+00},
+            {"idpunt":21,"tension":5.63242e+08,"deformation":1.20000e+00},
+            {"idpunt":22,"tension":5.70607e+08,"deformation":1.26000e+00},
+            {"idpunt":23,"tension":5.77604e+08,"deformation":1.32000e+00},
+            {"idpunt":24,"tension":5.84266e+08,"deformation":1.38000e+00},
+            {"idpunt":25,"tension":5.90622e+08,"deformation":1.44000e+00},
+            {"idpunt":26,"tension":5.96701e+08,"deformation":1.50000e+00},
+            {"idpunt":27,"tension":6.02526e+08,"deformation":1.56000e+00},
+            {"idpunt":28,"tension":6.08119e+08,"deformation":1.62000e+00},
+            {"idpunt":29,"tension":6.13501e+08,"deformation":1.68000e+00},
+            {"idpunt":30,"tension":6.18688e+08,"deformation":1.74000e+00},
+            {"idpunt":31,"tension":6.23699e+08,"deformation":1.80000e+00},
+            {"idpunt":32,"tension":6.28546e+08,"deformation":1.86000e+00},
+            {"idpunt":33,"tension":6.33244e+08,"deformation":1.92000e+00},
+            {"idpunt":34,"tension":6.37804e+08,"deformation":1.98000e+00},
+            {"idpunt":35,"tension":6.42238e+08,"deformation":2.04000e+00},
+            {"idpunt":36,"tension":6.46554e+08,"deformation":2.10000e+00},
+            {"idpunt":37,"tension":6.50763e+08,"deformation":2.16000e+00},
+            {"idpunt":38,"tension":6.54872e+08,"deformation":2.22000e+00},
+            {"idpunt":39,"tension":6.58888e+08,"deformation":2.28000e+00},
+            {"idpunt":40,"tension":6.62818e+08,"deformation":2.34000e+00},
+            {"idpunt":41,"tension":6.66669e+08,"deformation":2.40000e+00},
+            {"idpunt":42,"tension":6.70445e+08,"deformation":2.46000e+00},
+            {"idpunt":43,"tension":6.74152e+08,"deformation":2.52000e+00},
+            {"idpunt":44,"tension":6.77795e+08,"deformation":2.58000e+00},
+            {"idpunt":45,"tension":6.81377e+08,"deformation":2.64000e+00},
+            {"idpunt":46,"tension":6.84902e+08,"deformation":2.70000e+00},
+            {"idpunt":47,"tension":6.88375e+08,"deformation":2.76000e+00},
+            {"idpunt":48,"tension":6.91797e+08,"deformation":2.82000e+00},
+            {"idpunt":49,"tension":6.95172e+08,"deformation":2.88000e+00},
+            {"idpunt":50,"tension":6.98503e+08,"deformation":2.94000e+00},
+            {"idpunt":51,"tension":7.01792e+08,"deformation":3.00000e+00},
+            {"idpunt":52,"tension":7.05041e+08,"deformation":3.06000e+00},
+            {"idpunt":53,"tension":7.08252e+08,"deformation":3.12000e+00},
+            {"idpunt":54,"tension":7.11428e+08,"deformation":3.18000e+00},
+            {"idpunt":55,"tension":7.14569e+08,"deformation":3.24000e+00},
+            {"idpunt":56,"tension":7.17679e+08,"deformation":3.30000e+00},
+            {"idpunt":57,"tension":7.20757e+08,"deformation":3.36000e+00},
+            {"idpunt":58,"tension":7.23806e+08,"deformation":3.42000e+00},
+            {"idpunt":59,"tension":7.26826e+08,"deformation":3.48000e+00},
+            {"idpunt":60,"tension":7.29819e+08,"deformation":3.54000e+00},
+            {"idpunt":61,"tension":7.32786e+08,"deformation":3.60000e+00},
+            {"idpunt":62,"tension":7.35729e+08,"deformation":3.66000e+00},
+            {"idpunt":63,"tension":7.38647e+08,"deformation":3.72000e+00},
+            {"idpunt":64,"tension":7.41541e+08,"deformation":3.78000e+00},
+            {"idpunt":65,"tension":7.44414e+08,"deformation":3.84000e+00},
+            {"idpunt":66,"tension":7.47264e+08,"deformation":3.90000e+00},
+            {"idpunt":67,"tension":7.50094e+08,"deformation":3.96000e+00},
+            {"idpunt":68,"tension":7.52904e+08,"deformation":4.02000e+00},
+            {"idpunt":69,"tension":7.55693e+08,"deformation":4.08000e+00},
+            {"idpunt":70,"tension":7.58464e+08,"deformation":4.14000e+00},
+            {"idpunt":71,"tension":7.61216e+08,"deformation":4.20000e+00},
+            {"idpunt":72,"tension":7.63950e+08,"deformation":4.26000e+00},
+            {"idpunt":73,"tension":7.66667e+08,"deformation":4.32000e+00},
+            {"idpunt":74,"tension":7.69367e+08,"deformation":4.38000e+00},
+            {"idpunt":75,"tension":7.72050e+08,"deformation":4.44000e+00},
+            {"idpunt":76,"tension":7.74716e+08,"deformation":4.50000e+00},
+            {"idpunt":77,"tension":7.77367e+08,"deformation":4.56000e+00},
+            {"idpunt":78,"tension":7.80003e+08,"deformation":4.62000e+00},
+            {"idpunt":79,"tension":7.82623e+08,"deformation":4.68000e+00},
+            {"idpunt":80,"tension":7.85229e+08,"deformation":4.74000e+00},
+            {"idpunt":81,"tension":7.87820e+08,"deformation":4.80000e+00},
+            {"idpunt":82,"tension":7.90398e+08,"deformation":4.86000e+00},
+            {"idpunt":83,"tension":7.92961e+08,"deformation":4.92000e+00},
+            {"idpunt":84,"tension":7.95511e+08,"deformation":4.98000e+00},
+            {"idpunt":85,"tension":7.98047e+08,"deformation":5.04000e+00},
+            {"idpunt":86,"tension":8.00571e+08,"deformation":5.10000e+00},
+            {"idpunt":87,"tension":8.03082e+08,"deformation":5.16000e+00},
+            {"idpunt":88,"tension":8.05580e+08,"deformation":5.22000e+00},
+            {"idpunt":89,"tension":8.08066e+08,"deformation":5.28000e+00},
+            {"idpunt":90,"tension":8.10540e+08,"deformation":5.34000e+00},
+            {"idpunt":91,"tension":8.13002e+08,"deformation":5.40000e+00},
+            {"idpunt":92,"tension":8.15452e+08,"deformation":5.46000e+00},
+            {"idpunt":93,"tension":8.17891e+08,"deformation":5.52000e+00},
+            {"idpunt":94,"tension":8.20319e+08,"deformation":5.58000e+00},
+            {"idpunt":95,"tension":8.22735e+08,"deformation":5.64000e+00},
+            {"idpunt":96,"tension":8.25141e+08,"deformation":5.70000e+00},
+            {"idpunt":97,"tension":8.27536e+08,"deformation":5.76000e+00},
+            {"idpunt":98,"tension":8.29920e+08,"deformation":5.82000e+00},
+            {"idpunt":99,"tension":8.32294e+08,"deformation":5.88000e+00},
+            {"idpunt":100,"tension":8.34658e+08,"deformation":5.94000e+00},
+            {"idpunt":101,"tension":8.37012e+08,"deformation":6.00000e+00},
+            {"idpunt":102,"tension":8.39355e+08,"deformation":6.06000e+00},
+            {"idpunt":103,"tension":8.41689e+08,"deformation":6.12000e+00},
+            {"idpunt":104,"tension":8.44014e+08,"deformation":6.18000e+00},
+            {"idpunt":105,"tension":8.46329e+08,"deformation":6.24000e+00},
+            {"idpunt":106,"tension":8.48634e+08,"deformation":6.30000e+00},
+            {"idpunt":107,"tension":8.50930e+08,"deformation":6.36000e+00},
+            {"idpunt":108,"tension":8.53217e+08,"deformation":6.42000e+00},
+            {"idpunt":109,"tension":8.55495e+08,"deformation":6.48000e+00},
+            {"idpunt":110,"tension":8.57764e+08,"deformation":6.54000e+00},
+            {"idpunt":111,"tension":8.60025e+08,"deformation":6.60000e+00},
+            {"idpunt":112,"tension":8.62277e+08,"deformation":6.66000e+00},
+            {"idpunt":113,"tension":8.64520e+08,"deformation":6.72000e+00},
+            {"idpunt":114,"tension":8.66755e+08,"deformation":6.78000e+00},
+            {"idpunt":115,"tension":8.68981e+08,"deformation":6.84000e+00},
+            {"idpunt":116,"tension":8.71200e+08,"deformation":6.90000e+00},
+            {"idpunt":117,"tension":8.73410e+08,"deformation":6.96000e+00},
+            {"idpunt":118,"tension":8.75612e+08,"deformation":7.02000e+00},
+            {"idpunt":119,"tension":8.77807e+08,"deformation":7.08000e+00},
+            {"idpunt":120,"tension":8.79993e+08,"deformation":7.14000e+00},
+            {"idpunt":121,"tension":8.82172e+08,"deformation":7.20000e+00},
+            {"idpunt":122,"tension":8.84343e+08,"deformation":7.26000e+00},
+            {"idpunt":123,"tension":8.86507e+08,"deformation":7.32000e+00},
+            {"idpunt":124,"tension":8.88663e+08,"deformation":7.38000e+00},
+            {"idpunt":125,"tension":8.90812e+08,"deformation":7.44000e+00},
+            {"idpunt":126,"tension":8.92954e+08,"deformation":7.50000e+00},
+            {"idpunt":127,"tension":8.95088e+08,"deformation":7.56000e+00},
+            {"idpunt":128,"tension":8.97215e+08,"deformation":7.62000e+00},
+            {"idpunt":129,"tension":8.99336e+08,"deformation":7.68000e+00},
+            {"idpunt":130,"tension":9.01449e+08,"deformation":7.74000e+00},
+            {"idpunt":131,"tension":9.03555e+08,"deformation":7.80000e+00},
+            {"idpunt":132,"tension":9.05655e+08,"deformation":7.86000e+00},
+            {"idpunt":133,"tension":9.07748e+08,"deformation":7.92000e+00},
+            {"idpunt":134,"tension":9.09834e+08,"deformation":7.98000e+00},
+            {"idpunt":135,"tension":9.11914e+08,"deformation":8.04000e+00},
+            {"idpunt":136,"tension":9.13987e+08,"deformation":8.10000e+00},
+            {"idpunt":137,"tension":9.16054e+08,"deformation":8.16000e+00},
+            {"idpunt":138,"tension":9.18114e+08,"deformation":8.22000e+00},
+            {"idpunt":139,"tension":9.20168e+08,"deformation":8.28000e+00},
+            {"idpunt":140,"tension":9.22216e+08,"deformation":8.34000e+00},
+            {"idpunt":141,"tension":9.24258e+08,"deformation":8.40000e+00},
+            {"idpunt":142,"tension":9.26293e+08,"deformation":8.46000e+00},
+            {"idpunt":143,"tension":9.28323e+08,"deformation":8.52000e+00},
+            {"idpunt":144,"tension":9.30346e+08,"deformation":8.58000e+00},
+            {"idpunt":145,"tension":9.32364e+08,"deformation":8.64000e+00},
+            {"idpunt":146,"tension":9.34375e+08,"deformation":8.70000e+00},
+            {"idpunt":147,"tension":9.36381e+08,"deformation":8.76000e+00},
+            {"idpunt":148,"tension":9.38381e+08,"deformation":8.82000e+00},
+            {"idpunt":149,"tension":9.40376e+08,"deformation":8.88000e+00},
+            {"idpunt":150,"tension":9.42364e+08,"deformation":8.94000e+00},
+            {"idpunt":151,"tension":9.44348e+08,"deformation":9.00000e+00},
+            {"idpunt":152,"tension":9.46325e+08,"deformation":9.06000e+00},
+            {"idpunt":153,"tension":9.48297e+08,"deformation":9.12000e+00},
+            {"idpunt":154,"tension":9.50264e+08,"deformation":9.18000e+00},
+            {"idpunt":155,"tension":9.52225e+08,"deformation":9.24000e+00},
+            {"idpunt":156,"tension":9.54181e+08,"deformation":9.30000e+00},
+            {"idpunt":157,"tension":9.56132e+08,"deformation":9.36000e+00},
+            {"idpunt":158,"tension":9.58077e+08,"deformation":9.42000e+00},
+            {"idpunt":159,"tension":9.60017e+08,"deformation":9.48000e+00},
+            {"idpunt":160,"tension":9.61952e+08,"deformation":9.54000e+00},
+            {"idpunt":161,"tension":9.63882e+08,"deformation":9.60000e+00},
+            {"idpunt":162,"tension":9.65807e+08,"deformation":9.66000e+00},
+            {"idpunt":163,"tension":9.67727e+08,"deformation":9.72000e+00},
+            {"idpunt":164,"tension":9.69642e+08,"deformation":9.78000e+00},
+            {"idpunt":165,"tension":9.71552e+08,"deformation":9.84000e+00},
+            {"idpunt":166,"tension":9.73457e+08,"deformation":9.90000e+00},
+            {"idpunt":167,"tension":9.75357e+08,"deformation":9.96000e+00},
+            {"idpunt":168,"tension":9.76621e+08,"deformation":1.00000e+01},
+            {"idpunt":169,"tension":9.86035e+08,"deformation":1.03000e+01},
+            {"idpunt":170,"tension":9.95335e+08,"deformation":1.06000e+01},
+            {"idpunt":171,"tension":1.00453e+09,"deformation":1.09000e+01},
+            {"idpunt":172,"tension":1.01361e+09,"deformation":1.12000e+01},
+            {"idpunt":173,"tension":1.02259e+09,"deformation":1.15000e+01},
+            {"idpunt":174,"tension":1.03148e+09,"deformation":1.18000e+01},
+            {"idpunt":175,"tension":1.04027e+09,"deformation":1.21000e+01},
+            {"idpunt":176,"tension":1.04897e+09,"deformation":1.24000e+01},
+            {"idpunt":177,"tension":1.05758e+09,"deformation":1.27000e+01},
+            {"idpunt":178,"tension":1.06610e+09,"deformation":1.30000e+01},
+            {"idpunt":179,"tension":1.07455e+09,"deformation":1.33000e+01},
+            {"idpunt":180,"tension":1.08291e+09,"deformation":1.36000e+01},
+            {"idpunt":181,"tension":1.09120e+09,"deformation":1.39000e+01},
+            {"idpunt":182,"tension":1.09941e+09,"deformation":1.42000e+01},
+            {"idpunt":183,"tension":1.10755e+09,"deformation":1.45000e+01},
+            {"idpunt":184,"tension":1.11562e+09,"deformation":1.48000e+01},
+            {"idpunt":185,"tension":1.12362e+09,"deformation":1.51000e+01},
+            {"idpunt":186,"tension":1.13156e+09,"deformation":1.54000e+01},
+            {"idpunt":187,"tension":1.13943e+09,"deformation":1.57000e+01},
+            {"idpunt":188,"tension":1.14723e+09,"deformation":1.60000e+01},
+            {"idpunt":189,"tension":1.15498e+09,"deformation":1.63000e+01},
+            {"idpunt":190,"tension":1.16267e+09,"deformation":1.66000e+01},
+            {"idpunt":191,"tension":1.17029e+09,"deformation":1.69000e+01},
+            {"idpunt":192,"tension":1.17786e+09,"deformation":1.72000e+01},
+            {"idpunt":193,"tension":1.18538e+09,"deformation":1.75000e+01},
+            {"idpunt":194,"tension":1.19284e+09,"deformation":1.78000e+01},
+            {"idpunt":195,"tension":1.20025e+09,"deformation":1.81000e+01},
+            {"idpunt":196,"tension":1.20761e+09,"deformation":1.84000e+01},
+            {"idpunt":197,"tension":1.21492e+09,"deformation":1.87000e+01},
+            {"idpunt":198,"tension":1.22218e+09,"deformation":1.90000e+01},
+            {"idpunt":199,"tension":1.22939e+09,"deformation":1.93000e+01},
+            {"idpunt":200,"tension":1.23655e+09,"deformation":1.96000e+01},
+            {"idpunt":201,"tension":1.24367e+09,"deformation":1.99000e+01}
+        ]
+    }
+]
+  
 }
